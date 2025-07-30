@@ -1,0 +1,247 @@
+[
+  {
+    "id": "1",
+    "name": "Sneakers",
+    "category": "Shoes",
+    "price": 900,
+    "img": "Photos/shoe6.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Sundress",
+    "category": "Dress",
+    "price": 850,
+    "img": "Photos/dress2.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Bag",
+    "category": "bags",
+    "price": 8000,
+    "img": "Photos/lapbag3.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Oxford Shoes",
+    "category": "Shoes",
+    "price": 5000,
+    "img": "Photos/shoe1.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Loafer Shoes",
+    "category": "Shoes",
+    "price": 2000,
+    "img": "Photos/loafer1.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Ball Caps",
+    "category": "Caps",
+    "price": 550,
+    "img": "Photos/cap1.jpg"
+  },
+  {
+    "id": "7",
+    "name": "Loafer Shoes",
+    "category": "Shoes",
+    "price": 120,
+    "img": "Photos/loafer2.jpg"
+  },
+  {
+    "id": "8",
+    "name": "Kangol Hat",
+    "category": "Caps",
+    "price": 850,
+    "img": "Photos/kangol1.jpg"
+  },
+  {
+    "id": "9",
+    "name": "Blazers",
+    "category": "suits",
+    "price": 1500,
+    "img": "Photos/suit1.jpg"
+  },
+  {
+    "id": "10",
+    "name": "Penny Loafers",
+    "category": "Shoes",
+    "price": 1800,
+    "img": "Photos/shoe5.jpg"
+  },
+  {
+    "id": "11",
+    "name": "Laptop Bag",
+    "category": "bags",
+    "price": 150,
+    "img": "Photos/lapbag2.jpg"
+  },
+  {
+    "id": "12",
+    "name": "Ladies Shoes",
+    "category": "Shoes",
+    "price": 7000,
+    "img": "Photos/shoe8.jpg"
+  },
+  {
+    "id": "13",
+    "name": "Ladies Shoes",
+    "category": "Shoes",
+    "price": 3500,
+    "img": "Photos/shoe3.jpg"
+  },
+  {
+    "id": "14",
+    "name": "Ladies Shoes",
+    "category": "Shoes",
+    "price": 450,
+    "img": "Photos/shoe9.jpg"
+  },
+  {
+    "id": "15",
+    "name": "Plain T-Shirt",
+    "category": "Shirts",
+    "price": 750,
+    "img": "Photos/tee1.jpg"
+  },
+  {
+    "id": "16",
+    "name": "Plain T-Shirt",
+    "category": "Shirts",
+    "price": 750,
+    "img": "Photos/tee2.jpg"
+  },
+  {
+    "id": "17",
+    "name": "Sweatshirt",
+    "category": "Shirts",
+    "price": 800,
+    "img": "Photos/sweatshirt1.jpg"
+  },
+  {
+    "id": "18",
+    "name": "Sweatshirt",
+    "category": "Shirts",
+    "price": 800,
+    "img": "Photos/sweatshirt2.jpg"
+  },
+  {
+    "id": "19",
+    "name": "Sweatshirt",
+    "category": "Shirts",
+    "price": 800,
+    "img": "Photos/sweatshirt.jpg"
+  },
+  {
+    "id": "20",
+    "name": "Sports Shoes",
+    "category": "Shoes",
+    "price": 1500,
+    "img": "Photos/shoe11.jpg"
+  },
+  {
+    "id": "21",
+    "name": "Ladies Shoes",
+    "category": "Shoes",
+    "price": 950,
+    "img": "Photos/shoe9.jpg"
+  },
+  {
+    "id": "22",
+    "name": "Unisex Sneakers",
+    "category": "Shoes",
+    "price": 1550,
+    "img": "Photos/shoe12.jpg"
+  },
+  {
+    "id": "23",
+    "name": "Ladies handbag",
+    "category": "bags",
+    "price": 2250,
+    "img": "Photos/bag3.jpg"
+  },
+  {
+    "id": "24",
+    "name": "Ladies handbag",
+    "category": "bags",
+    "price": 2250,
+    "img": "Photos/bag2.jpg"
+  },
+  {
+    "id": "25",
+    "name": "Ladies handbag",
+    "category": "bags",
+    "price": 2250,
+    "img": "Photos/bag1.jpg"
+  },
+  {
+    "id": "26",
+    "name": "Sundress",
+    "category": "Dress",
+    "price": 950,
+    "img": "Photos/dress1.jpg"
+  },
+  {
+    "id": "27",
+    "name": "Sundress",
+    "category": "Dress",
+    "price": 750,
+    "img": "Photos/dress3.jpg"
+  },
+  {
+    "id": "28",
+    "name": "Executive Leather Bag",
+    "category": "bags",
+    "price": 5000,
+    "img": "Photos/lapbag1.jpg"
+  },
+  {
+    "id": "29",
+    "name": "Executive Leather Bag",
+    "category": "bags",
+    "price": 5000,
+    "img": "Photos/lapbag4.jpg"
+  },
+  {
+    "id": "30",
+    "name": "Travelling Bag",
+    "category": "bags",
+    "price": 2550,
+    "img": "Photos/handbag2.jpg"
+  },
+  {
+    "id": "32",
+    "name": "Travelling Bag",
+    "category": "bags",
+    "price": 3350,
+    "img": "Photos/handbag1.jpg"
+  },
+  {
+    "id": "32",
+    "name": "Leather Jacket",
+    "category": "suits",
+    "price": 2150,
+    "img": "Photos/suit4.jpg"
+  },
+  {
+    "id": "33",
+    "name": "Labies Blazer",
+    "category": "suits",
+    "price": 2250,
+    "img": "Photos/suit3.jpg"
+  },
+  {
+    "id": "34",
+    "name": "Labies Blazer",
+    "category": "suits",
+    "price": 2250,
+    "img": "Photos/suit2.jpg"
+  },
+  {
+    "id": "35",
+    "name": "High Heels",
+    "category": "Shoes",
+    "price": 2250,
+    "img": "Photos/shoe7.jpg"
+  }
+]

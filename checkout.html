@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <script
+      src="https://kit.fontawesome.com/2e2767d256.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Farsan&family=Roboto&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Checkout</h1>
+    </header>
+
+    <main>
+      <section class="billing-info">
+        <h2>Billing Information</h2>
+        <form name="contact" method="POST" data-netlify="true">
+          <div class="name">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="address">
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea>
+          </div>
+
+          <section class="order-summary">
+            <h2>Order Summary</h2>
+            <div class="checkOut-items">
+              <ol>
+                <li>
+                  <div class="order-summary-item">
+                    <div class="order-summary-item-details">
+                      <p class="item-name">Onions</p>
+                    </div>
+                    <div class="checkOutQtty">
+                      <p class="item-quantity">1 kg</p>
+                    </div>
+                    <div class="order-summary-item-total">
+                      <p class="item-total-price">Cost: Kshs 150</p>
+                    </div>
+                  </div>
+                </li>
+              </ol>
+              <div class="cart-total">
+                <p>Total: Kshs. 0.00</p>
+              </div>
+            </div>
+          </section>
+
+          <div class="check-out-btn">
+            <button type="submit">Place Order</button>
+            <button type="button" onclick="document.location = 'index.html'">
+              Back to Shop
+            </button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

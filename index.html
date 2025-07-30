@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutiqify</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poiret+One&family=Smooch+Sans:wght@100..900&family=Tangerine:wght@400;700&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/2e2767d256.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Farsan&family=Roboto&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div>
+            <button class="filter-toggle">
+                <i class="fa-solid fa-filter"></i> Filter
+            </button>
+        </div>
+        <div class="logo">
+            <a href="#">
+                <h2>Boutiqify🔥</h2>
+                <p>Elevate your Wardrobe</p>
+            </a>
+        </div>
+        <div class="navigation">
+            <div class="nav-links" id="mobile-menu">
+                <a href="#sidebar" class="link">Home</a>
+                <a href="#footer" class="link">About Us</a>
+                <a href="#product-section" class="link">Products</a>
+                <a href="#review-section" class="link">Reviews</a>
+                <a href="#footer" class="link">Contacts</a>
+            </div>
+            <div class="bar-icon">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="cart-items">
+                    0
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- SIDEBAR -->
+    <div class="sidebar" id="sidebar">
+        <button class="filter-btn" data-id="all">All products</button>
+        <button class="filter-btn" data-id="Shawries Wear">Shawries Wear</button>
+        <button class="filter-btn" data-id="Chali-drips">Chali Drips</button>
+        <button class="filter-btn" data-id="bags">Bags</button>
+        <button class="filter-btn" data-id="Shoes">Shoes</button>
+        <button class="filter-btn" data-id="suits">Suits</button>
+        <button class="filter-btn" data-id="Caps">Caps</button>
+        <button class="filter-btn" data-id="Dress">Dresses</button>
+        <button class="filter-btn" data-id="Shirts">Shirts</button>
+    </div>
+    <!-- SEARCH BAR -->
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search...">
+        <button id="search-button">Search</button>
+    </div>
+    <div id="search-results">
+        <!-- Display search results here -->
+    </div>
+    <div class="product-section" id="product-section">
+
+
+    </div>
+    <!-- CART -->
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fa-solid fa-xmark"></i>
+            </span>
+            <h2>Your Cart</h2>
+            <div class="cart-content">
+                <!-- <div class="added-item">
+                    <img src="./Photos/broccoli.jpg" alt="">
+                    <div>
+                        <h4>Broccoli</h4>
+                        <h5>Kshs 250/Kg</h5>
+                        <span class="trash-icon">
+                            <i class="fa-solid fa-trash"></i>
+                        </span>
+                    </div>
+                    <div class="count-items">
+                        <i class="fa-solid fa-plus"></i>
+                        <p class="item-count">1</p>
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                </div> -->
+            </div>
+            <div class="cart-footer">
+                <h3>TOTAL: Kshs <SPAn class="cart-total">0</SPAn></h3>
+                <button class="clear-cart">Clear Cart</button>
+                <button class="check-out" onclick="document.location = 'checkOut.html'">Check Out</a></button>
+            </div>
+        </div>
+    </div>
+    <section class="review-section" id="review-section">
+        <div class="review-container">
+            <div class="title">
+                <h2>Our Reviews</h2>
+            </div>
+        </div>
+        <div class="review">
+            <div class="review-img">
+                <img src="/Photos/man4.jpg" id="person-img" alt="">
+            </div>
+            <h4 id="name">Jones</h4>
+            <p id="location">Kisumu</p>
+            <p id="info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio adipisci itaque nihil officia
+                maxime eligendi totam vel blanditiis tempora laborum!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit consectetur vel quasi iure itaque
+                dolorem distinctio repudiandae perspiciatis id, non, nulla porro, odit iste? Aliquam, nisi doloribus.
+                Tenetur, eius iure excepturi maiores perferendis architecto hic explicabo sequi ipsa dignissimos!
+            </p>
+            <div class="btn-container">
+                <button class="prev-btn">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button class="foward-btn">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="contact">
+            <h3>Contact Us</h3>
+            <p>Have questions or feedback? Reach out to us.</p>
+            <form name="contact" method="POST" data-netlify="true">
+                <div class="name">
+                    <label for=" name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br>
+                </div>
+                <div class="message">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea><br>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="footer-icons">
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
